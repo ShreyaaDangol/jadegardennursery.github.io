@@ -1,0 +1,246 @@
+.hero-section{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-image{
+    overflow: hidden;
+    object-fit: cover;
+    height :100vh; 
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.hero-section h1{
+    font-weight: 500;
+    font-size: 75px;
+    letter-spacing: 0.035em;
+    color: white;
+}
+
+.hero-section p{
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: white;
+    padding: 20px;
+}
+
+.about-container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container{
+    padding-left: 120px;
+    padding-top: 200px;
+}
+
+.about-container h2{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.035em;
+}
+
+.about-container p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+.about-container-image{
+    width: 767px;
+    height: 580px;
+}
+
+.image-container-1{
+    display: flex;
+    height: 618px;
+    padding: 60px;
+    padding-left: 90px;
+}
+
+.blog-text{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 90px;
+}
+
+.blog-text-2 h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 79px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+
+.blog-text-2 p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 142.4%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.image-container-blog-0{
+    width: 651px;
+    height: 483px;
+}
+
+.image-container-blog-1{
+    width: 324px;
+    height: 242px;
+    padding: 1px;
+}
+
+.image-container-2{
+    display: inline;
+    justify-content: space-between;
+}
+
+.image-container-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-container{
+    display: flex;
+    align-items: center;
+}
+
+.image-container-insta{
+    width: 630px;
+    height: 660px;
+}
+
+.insta-container-1{
+    display: inline;
+    justify-content: space-between;
+}
+
+.insta-container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container-insta-1{
+    width: 432px;
+    height: 329px;
+}
+
+.subscribe-container{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 500px;
+    background-color: #469B08;
+}
+
+.padding-box{
+    padding-left: 120px;
+}
+
+.form-container-2{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.subscribe-container h1{
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: 0.035em;
+    color: #091401;
+}
+
+.subscribe-container p{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.image-gallery{
+    margin: 50px 0px 50px 0px;
+}
+
+.image-gallery h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #091401;
+}
+
+.image-gallery h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #091401;
+}
+
+@media screen and (max-width: 1200px){
+
+    .hero-section{
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section-image{
+        overflow: hidden;
+        object-fit: cover;
+        height :356px; 
+    }
+
+    .hero-section h1{
+        font-weight: 500;
+        font-size: 50px;
+        letter-spacing: 0.035em;
+        color: white;
+    }
+
+    .hero-section p{
+        font-weight: 300;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        color: white;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+
+}

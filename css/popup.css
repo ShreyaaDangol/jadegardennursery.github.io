@@ -1,0 +1,97 @@
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: absolute;
+    align-items: center;
+    right: 432px;
+    top: 200px;
+    border: 2px solid #469B08;
+    z-index: 9;
+}
+
+/*.overlay{
+  display: none;
+  opacity: 0;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 100;
+  cursor: pointer;
+  transition: opacity .3s;
+}*/
+	
+  
+  /* Add styles to the form container */
+.form-container {
+    width: 576px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.cross-alignment{
+  margin: 0px -166px 0px 42px;
+}
+
+.logo-text-container-login{
+    display: flex;
+    width: 330px;
+    height: 72px;
+    margin: 5px 5px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    color: #091401;
+}
+  
+  /* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 80%;
+    padding: 10px;
+    margin: 25px 0 10px 0;
+    border: 2px solid #469B08;
+    background: white;
+    border-radius: 5px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 16px;
+    color: #091401;
+}
+  
+  /* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: white;
+    border: 2px solid #469B08;
+    border-radius: 5px;
+}
+  
+  /* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #469B08;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0.205em;
+    color: #091401;
+    padding: 9px 0px;
+    border: none;
+    cursor: pointer;
+    width: 445px;
+    margin: 20px 0px 20px 0px;
+    opacity: 0.8;
+}
+  
+  /* Add some hover effects to buttons */
+.btn:hover{
+    opacity: 1;
+  }

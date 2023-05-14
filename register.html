@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jade Garden Nursery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/ff385191f9.js" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/home.css">
+        <link rel="stylesheet" type="text/css" href="./css/popup.css">
+
+        <script src="./javascript/login.js"></script>
+        
+    </head>
+    <body>
+        <nav>
+            <div class="logo-text-container">
+                <a href="home.html"><img src="./assets/logo.png"  alt="Logo" class="logo-width"></a>
+                <h2>Jade Garden Nursery</h2>
+            </div>   
+
+            <div>
+                <ul class="menu-left">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./blog.html">Blogs</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="menu-right">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                    <li><i class="fa-solid fa-user" onclick="openForm()">
+                        <div class="overlay">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                    <div class="popup-container">
+                                        <div class="logo-text-container-login">
+                                            <img src="./assets/logo.png"  alt="Logo" class="logo-width">
+                                            <h2>Jade Garden Nursery</h2>
+                                        </div>
+                                        <i class="fa-solid fa-xmark cross-alignment" onclick="closeForm()"></i>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Email" name="email" required>
+                                    <input type="password" placeholder="Enter Your Password" name="psw" required>
+                                
+                                    <button type="submit" class="btn">LOG IN</button>
+                                    <p><a href="./register.html">Don't have an account? Register Now</a></p>
+                                </form>
+                            </div>
+                        </div>
+                        </i>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <section>
+            <div class="register-container">
+                <h2>REGISTER</h2>
+                <form class="">
+                    <input type="text" placeholder="First Name" name="Fname" class="mesasge-form" required>
+                    <input type="text" placeholder="last Name" name="Lname" class="mesasge-form" required><br><br>
+                    <input type="text" placeholder="Enter your Email" name="Email" class="mesasge-form-2" required><br><br>
+                    <input type="text" placeholder="Country/Region" name="country" class="mesasge-form-2" required><br><br>
+                    <input type="text" placeholder="Address" name="address" class="mesasge-form-2" required><br><br>
+                    <input type="text" placeholder="Phone Number" name="Number" class="mesasge-form-2" required><br><br>
+                    <input type="text" placeholder="Password" name="password" class="mesasge-form-2" required><br><br>
+                    
+                    <div class="register-btn"><a href="./home.html"><input type="submit" value="Register" class="btn button-primary"></a></div>
+                </form>
+            </div>
+        </section>
+        
+        <hr class="hr-horizontal">
+        <footer>
+            <div class="footer-flex-item">
+                <div class="footer-flex">
+                    <div class="logo-text-container">
+                        <a href="home.html"><img src="./assets/logo.png"  alt="Logo" width="72px" height="60px"></a>
+                        <h2>Jade Garden Nursery</h2>
+                    </div>
+                    <div class="footer-1">
+                        <h2>Follow us</h2>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-brands fa-facebook-f icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-pinterest icon"></i>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <h2>Company</h2>
+                    <a href="">About us</a>
+                    <a href="">Products</a>
+                    <a href="">Returns</a>
+                    <a href="">Delivery</a>
+                    <a href="">Partnerships</a>
+                    <a href="">Customer Service</a>
+                    <a href="">Terms & Conditions</a>
+                </div>
+                <div class="footer-3">
+                    <h2>Information</h2>
+                    <a href="">Privacy Policy</a>
+                    <a href="">FAQs</a>
+                    <a href="">Our Blogs</a>
+                    <a href="">Newsletter</a>
+                    <a href="">Login</a>
+                    <a href="">Subscribe</a>
+
+                </div>
+                <div class="footer-3">
+                    <h2>Contact</h2>
+                    <div class="footer-4">
+                        <div class="icon-placement">
+                            <i class="fa-solid fa-mobile icon-footer"></i>
+                            <i class="fa-solid fa-phone icon-footer"></i>
+                            <i class="fa-solid fa-envelope icon-footer"></i>
+                            <a href=""><i class="fa-solid fa-earth-asia icon-footer"></i></a>
+                        </div>
+                        <div class="text-placement">
+                            <p>+977 01 783247274792</p> 
+                            <p>+977 948735823783790</p>
+                            <p>jadeGardenNursery@gmail.com</p>
+                            <a href="./home.html"><p>www.jadegardennursery.com</p></a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <h3 class="copyright-text">Copyright 2022 Jade garden Nursery | Kathmandu, Nepal | All Rights Reserved</h3>
+        </footer>
+    </body>
+</html>

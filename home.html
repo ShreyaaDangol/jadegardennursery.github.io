@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jade Garden Nursery</title>
+        <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/ff385191f9.js" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/home.css">
+        <link rel="stylesheet" type="text/css" href="./css/popup.css">
+
+        
+        
+    </head>
+    <body>
+        <nav class="col-12">
+            <div class="logo-text-container">
+                <a href="home.html"><img src="./assets/logo.png"  alt="Logo" class="logo-width"></a>
+                <h2>Jade Garden Nursery</h2>
+            </div>   
+
+            <div>
+                <ul class="menu-left col-6">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./blog.html">Blogs</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="menu-right col-5">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                    <li><i class="fa-solid fa-user" onclick="openForm()">
+                        <div class="overlay">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                    <div class="popup-container">
+                                        <div class="logo-text-container-login">
+                                            <img src="./assets/logo.png"  alt="Logo" class="logo-width">
+                                            <h2>Jade Garden Nursery</h2>
+                                        </div>
+                                        <i class="fa-solid fa-xmark cross-alignment" onclick="closeForms()"></i>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Email" name="email" required>
+                                    <input type="password" placeholder="Enter Your Password" name="psw" required>
+                                
+                                    <button type="submit" class="btn">LOG IN</button>
+                                    <p><a href="./register.html">Don't have an account? Register Now</a></p>
+                                </form>
+                            </div>
+                        </div>
+                        </i>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+
+        <section>
+            <div class="hero-section col-12 col-m-8">
+                <img class="hero-section-image col-12 col-m-8" src="./assets/overlay images/hero-section-image.jpg" alt="image">
+                <div class="container-1 col-9">
+                    <h1>PLANTS COLLECTION</h1>
+                    <p>Find Plants You Will Love</p>
+                    <a href="./product.html" class="btn button-primary">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2 col-12">
+            <h2 class="content-text">TRENDING PLANTS</h2>
+            <div class="products-container">
+                <div class="products-container-2">
+                    <div class="product-alignment">
+                        <a href="./productDetail.html"><img src="./assets/chamaedorea.jpg" alt="chamaedorea" class="image-container">
+                        <h3>Chamaedorea</h3></a>
+                        <h4>Rs.800.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i> 
+                        </div>  
+                    </div>
+                    <div class="product-alignment">
+                        <img src="./assets/rubber plant.jpg" alt="Rubber Plant" class="image-container">
+                        <h3>Rubber Plant</h3>
+                        <h4>Rs.350.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i> 
+                        </div>  
+                    </div>
+                </div>
+                <hr class="hr-horizontal">
+
+                <div class="products-container-2">
+                    <div class="product-alignment">
+                        <img src="./assets/lucky jade plant.jpg" alt="lucky jade plant" class="image-container">
+                        <h3>Lucky Jade Plant</h3>
+                        <h4>Rs.400.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-alignment">
+                        <img src="./assets/spider hanging plant.jpg" alt="spider hanging plant" class="image-container">
+                        <h3>Spider Hanging Plant</h3>
+                        <h4>Rs.250.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-horizontal">
+
+                <div class="products-container-2">
+                    <div class="product-alignment">
+                        <img src="./assets/marbrasse glass vase.jpg" alt="marbrasse glass vase" class="image-container">
+                        <h3>Marbrasse Glass Vase</h3>
+                        <h4>Rs.1000.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-alignment">
+                        <img src="./assets/lucky bamboo 3 layer plant.jpg" alt="Lucky bamboo 3 Layer Plant" class="image-container">
+                        <h3>Lucky bamboo 3 Layer Plant</h3>
+                        <h4>Rs.350.00</h4>
+                        <div class="add-to-cart col-4">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-flex">
+                <a href="" class="btn button-primary">View More</a>
+            </div>   
+        </section>
+
+        <section>
+            <div class="about-container-flex">
+                <div class="about-container">
+                    <h2>Who we are?</h2>
+                    <p>Jade garden nursery is a commercial nursery engaged in production and selling of ornamental plants and other nursery products. This nursery was established in January 14, 2013. </p>
+                    <a href="" class="btn button-primary">Read More</a>
+                </div>
+                <div class="about-container-image">
+                    <img src="./assets/about.png">
+                </div>
+            </div>   
+        </section>
+
+        <section>
+            <div class="image-container-1">
+                <div class="blog-text">
+                    <img src="./assets/overlay images/blog-1.jpg" class="image-container-blog-0">
+                    <div class="blog-text-2">
+                        <h3>LATEST BLOG</h3>
+                        <P>Follow along on a Bird of Paradise's journey from our greenhouse to your home, and learn how we care for your plant every step of the way.  Which plant has the best chance of thriving.....</P>
+                        <a href="" class="btn button-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="image-container-2">
+                    <div class="image-container-3">
+                        <img src="./assets/overlay images/blog-2.jpg" class="image-container-blog-1">
+                        <img src="./assets/overlay images/blog-3.jpg" class="image-container-blog-1">
+                    </div>
+                    <div class="image-container-3">
+                        <img src="./assets/overlay images/blog-4.jpg" class="image-container-blog-1">
+                        <img src="./assets/overlay images/blog-5.jpg" class="image-container-blog-1">
+                    </div>
+                </div>
+            </div>   
+        </section>
+
+        <section class="">
+            <div class="subscribe-container">
+                <div class="padding-box">
+                    <h1>GET 25% DISCOUNT</h1>
+                    <p>Subscribe to our newsletter to get 25% discount code</p>
+                    <div class="form-container-2">
+                        <form>
+                            <input type="text" class="form-email" id="Email" value="Enter your Email">
+                        </form><a href="" class="btn button-primary">Subscribe</a>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <h2>Visit Our Instagram</h2>
+            <div class="insta-container">
+                <div>
+                    <img src="./assets/visit insta-1.jpg" class="image-container-insta">
+                </div>
+                <div class="insta-container-1">
+                    <div class="insta-container-2">
+                        <img src="./assets/visit insta-2.jpg" class="image-container-insta-1">
+                        <img src="./assets/visit insta-3.jpg" class="image-container-insta-1">
+                    </div>
+                    <div class="insta-container-2">
+                        <img src="./assets/visit insta-4.jpg" class="image-container-insta-1">
+                        <img src="./assets/visit insta-5.jpg" class="image-container-insta-1">
+                    </div>
+                </div>
+            </div>
+            <h4>@JadeGardenNursery</h4>
+        </section>
+        
+        <hr class="hr-horizontal">
+        <footer>
+            <div class="footer-flex-item">
+                <div class="footer-flex">
+                    <div class="logo-text-container">
+                        <a href="home.html"><img src="./assets/logo.png"  alt="Logo" width="72px" height="60px"></a>
+                        <h2>Jade Garden Nursery</h2>
+                    </div>
+                    <div class="footer-1">
+                        <h2>Follow us</h2>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-brands fa-facebook-f icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-pinterest icon"></i>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <h2>Company</h2>
+                    <a href="">About us</a>
+                    <a href="">Products</a>
+                    <a href="">Returns</a>
+                    <a href="">Delivery</a>
+                    <a href="">Partnerships</a>
+                    <a href="">Customer Service</a>
+                    <a href="">Terms & Conditions</a>
+                </div>
+                <div class="footer-3">
+                    <h2>Information</h2>
+                    <a href="">Privacy Policy</a>
+                    <a href="">FAQs</a>
+                    <a href="">Our Blogs</a>
+                    <a href="">Newsletter</a>
+                    <a href="">Login</a>
+                    <a href="">Subscribe</a>
+
+                </div>
+                <div class="footer-3">
+                    <h2>Contact</h2>
+                    <div class="footer-4">
+                        <div class="icon-placement">
+                            <i class="fa-solid fa-mobile icon-footer"></i>
+                            <i class="fa-solid fa-phone icon-footer"></i>
+                            <i class="fa-solid fa-envelope icon-footer"></i>
+                            <a href=""><i class="fa-solid fa-earth-asia icon-footer"></i></a>
+                        </div>
+                        <div class="text-placement">
+                            <p>+977 01 783247274792</p> 
+                            <p>+977 948735823783790</p>
+                            <p>jadeGardenNursery@gmail.com</p>
+                            <a href="./home.html"><p>www.jadegardennursery.com</p></a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <h3 class="copyright-text">Copyright 2022 Jade garden Nursery | Kathmandu, Nepal | All Rights Reserved</h3>
+        </footer>
+        <script src="./javascript/login.js"></script>
+    </body>
+</html>
